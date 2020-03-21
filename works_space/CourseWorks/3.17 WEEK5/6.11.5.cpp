@@ -8,11 +8,11 @@ int main()
     double tax;
     while (flag)
     {
-        cout << "\nPlease input your income: " << endl;
+        cout << "\nPlease input your income (you should enter integers): " << endl;
         cin >> income;
         if (!cin >> income)
         {
-            cout << "Wrong value. Program terminating……";
+            cout << "Wrong value. Program terminating......";
             flag = false;
         }
 
