@@ -1,13 +1,11 @@
+#include <iostream>
+#include <string>
+using namespace std;
 
-#include<stdio.h>
-#include <conio.h>
-#include<stdlib.h>
-#include<iostream>
-
-int main()
+int main(int argc, char const *argv[])
 {
-    int a = 3;
-    printf("The fucking number is %d\n",a);
-    system("pause");
+    string str = "123456";
+    double   dblValue   =   atof(str);
+    cout << dblValue;
     return 0;
 }

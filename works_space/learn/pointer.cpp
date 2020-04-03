@@ -3,15 +3,15 @@
 using namespace std;
 
 struct polar
-(
+{
     double distance;double angle;
-);
+};
 struct rect
 {
     double x;double y;
 };
-void trans(const rect *pxy,polar * pda)
-void show(const polar *pda)
+void trans(const rect *pxy,polar * pda);
+void show(const polar *pda);
 int main(int argc, char const *argv[])
 {
     rect rplace;
